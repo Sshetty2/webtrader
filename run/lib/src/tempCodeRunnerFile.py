@@ -1,0 +1,2 @@
+_':
+    app.debug = True

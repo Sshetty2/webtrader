@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Trader</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 700px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 100px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .sidebar-image {
+      width: 160px;
+      height: 160px;
+    }
+
+    #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        cursor: pointer;
+    }
+
+     #myBtn:hover {
+        background: #ddd;
+        color: rgba(0, 0, 0, 0.5);
+     }
+    
+    .bg_content {
+    position: absolute;
+    bottom: 22px;
+    left: 39px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 425px;
+    padding: 10px;
+    border-radius: 10px;
+    }
+
+    .overlay-desc {
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 9px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    }
+
+    .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px -8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+    .button5 {
+    background-color: white;
+    color: black;
+    border: 1px solid #555555;
+    border-radius: 14px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .button5:hover {
+    background-color: #555555;
+    color: white;
+    }
+
+    .custom_iframe_scroll{
+		height: "695px";
+    }
+    
+
+
+
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 4px;
+      }
+      .row.content {height:auto;} 
+      .button {margin: -1px -8px;}
+      .bg_content {
+        width: 340px;
+        padding: 15px;
+        bottom: 0px;
+        left: 17px;
+      }
+      .h1, .h2, .h3, .h4 h1, h2, h3, h4 {
+      font-size: 14px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      }
+      .custom_iframe_scroll{
+		  height: "368px";
+		  } 
+
+    }
+
+    .form-control{
+      background-color: rgba(0,0,0,.5);
+      border: 0px solid #ccc;
+      width: 75%;
+    }
+
+    @media screen and  (min-width: 768px) {
+      .col-sm-2-left {
+          width: 13.666667%;
+      }
+
+      .col-sm-2-right {
+          width: 19.666667%;
+      }
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" style = "padding: 10px 80px" href="/login"><img src="/static/home.png" alt="Home"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="/login">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/logout"><span class="glyphicon glyphicon-log-in"></span> logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav col-sm-2-left">
+      <a href="/buy"><button class="button button5"><p>Buy</p></button></a>
+      <a href="/sell"><button class="button button5"><p>Sell</p></button></a>
+      <a href="/check_stock_price"><button class="button button5"><p>Check Stock Price</p></button></a>
+      <a href="/trade_history"><button class="button button5"><p>See Trade History</p></button></a>
+      <a href="/deposit_funds"><button class="button button5"><p>Deposit Funds</p></button></a>
+    </div>
+    <div class="col-sm-8 text-left" style = "box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); padding-right: 5px; padding-left: 5px"> 
+        {% block main %}
+        {% endblock main %}
+    </div>
+    <div class="col-sm-2 sidenav col-sm-2-right" style="padding-left: 5px; padding-top: 5px">
+        <div id="news_iframe_scroll" >
+            <iframe name="NewsIFrame" class="custom_iframe_scroll" src="/news_scroll" frameborder="5" scrolling="no" height= "563px" width="100%" padding-right = "5px"></iframe>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid text-center">
+  <p>Webtrader &#169 2018 Byte Academy - SShetty</p>
+</footer>
+
+<script>
+
+$('#myForm').on("submit", function(e){
+  $('#myModal').modal('show');
+  e.preventDefault();
+});
+</script>
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>News</title>
+
+<base target="_parent">
+
+
+<style>
+
+
+/* IMPORT GOOGLE FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+
+
+
+/* NEWS FRAME AREA TOP LEVEL PAGE - WIDTH ADDS BORDER */
+
+#news_iframe_scroll	{
+		width: 100%;
+		max-width: 100%;
+        min-width: 100%;
+		margin: 0px auto 10px auto;
+		border: #000000 1px solid;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+
+#news_iframe_scroll iframe 
+		{
+		width: 100%;
+		height: 563px; /* IF YOU EDIT HEIGHT EDIT THE SCROLLING SCRIPT HEIGHT!!!! */
+		display: block;
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		}
+
+.news_scroll-title 
+		{
+		color: #FFFFFF;
+		font: normal 20px "Droid Sans", arial, sans-serif;
+		text-align: left;
+		background-color: #276396;
+		padding: 5px 5px 5px 5px;
+		border-bottom: #C0C0C0 5px solid;
+		}
+
+
+/* EMBEDDED NEWS PAGE BODY */
+
+#NewsDiv	{ position: absolute; left: 0; top: 0px; width: 100%; }
+
+body.news-scroll {
+		background-color: #FFFFFF;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		}
+
+/* FONTS & PADDING */
+
+.scroll-text-if	{
+		color: #666666;
+		font: normal 12px "Droid Sans", arial, sans-serif;
+		text-align: left;
+		padding: 8px 7px 0px 7px;
+		}
+
+.scroll-title-if {
+		color: #000000;
+		font: bold 15px "Droid Sans", arial, sans-serif;
+		text-align: left;
+		border-bottom: #666666 0px solid;
+		}
+
+/* EMBEDDED NEWS PAGE LINK COLORS */
+
+.news-scroll a:link	{ color: #0033FF; text-decoration: none; }
+
+.news-scroll a:visited	{ color: #6633FF; text-decoration: none; }
+
+.news-scroll a:active	{ color: #0033FF; text-decoration: none; }
+
+.news-scroll a:hover	{ color: #6699FF; text-decoration: underline; }
+
+
+
+
+</style>
+
+</head>
+
+<body class="news-scroll" onMouseover="scrollspeed=0" onMouseout="scrollspeed=current" OnLoad="NewsScrollStart();">
+
+
+<!-- START NEWS FEED -->
+<div id="NewsDiv">
+<div class="scroll-text-if">
+
+<!-- SCROLLER CONTENT STARTS HERE -->
+
+
+{% for x in range(0,content_len) %}
+<a href="{{ content['articles'][x]['url'] }}">
+<span class="scroll-title-if">
+	{{ content["articles"][x]["title"] }}<br>
+</span>
+</a>
+{{ (content["articles"][x]["publishedAt"])}}
+<br>
+{{ content["articles"][x]["description"] }}
+
+<!-- cant use context processor to insert function  -->
+
+<br><br>
+{% endfor %}
+
+
+<!-- END SCROLLER CONTENT -->
+
+</div>
+</div>
+<!-- END NEWS FEED -->
+
+
+
+
+<!-- YOU DO NOT NEED TO EDIT BELOW THIS LINE -->
+
+<script type="text/javascript">
+
+
+var startdelay 		= 0; 		// START SCROLLING DELAY IN SECONDS
+var scrollspeed		= 1.3;		// ADJUST SCROLL SPEED
+var scrollwind		= 175;		// FRAME START ADJUST
+var speedjump		= 30;		// ADJUST SCROLL JUMPING = RANGE 20 TO 40
+var nextdelay		= 0; 		// SECOND SCROLL DELAY IN SECONDS 0 = QUICKEST
+var topspace		= "0px";	// TOP SPACING FIRST TIME SCROLLING
+var frameheight		= 563;		// IF YOU RESIZE THE CSS HEIGHT, EDIT THIS HEIGHT TO MATCH
+
+
+current = (scrollspeed);
+
+
+function HeightData(){
+AreaHeight=dataobj.offsetHeight
+if (AreaHeight===0){
+setTimeout("HeightData()",( startdelay * 1 ))
+}
+else {
+ScrollNewsDiv()
+}}
+
+function NewsScrollStart(){
+dataobj=document.all? document.all.NewsDiv : document.getElementById("NewsDiv")
+dataobj.style.top=topspace
+setTimeout("HeightData()",( startdelay * 1 ))
+}
+
+function ScrollNewsDiv(){
+dataobj.style.top=scrollwind+'px';
+scrollwind-=scrollspeed;
+if (parseInt(dataobj.style.top)<AreaHeight*(-1)) {
+dataobj.style.top=frameheight+'px';
+scrollwind=frameheight;
+setTimeout("ScrollNewsDiv()",( nextdelay * 1000 ))
+}
+else {
+setTimeout("ScrollNewsDiv()",speedjump)
+}}
+
+
+</script>
+
+
+</body>
+</html>

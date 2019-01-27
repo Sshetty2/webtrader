@@ -1,0 +1,349 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [{
+                "source": {
+                    "id": "the-wall-street-journal",
+                    "name": "The Wall Street Journal"
+                },
+                "author": "Rhiannon Hoyle",
+                "title": "Countries Push to Extract More Cash from Big Mining Companies",
+                "description": "As gold, diamond and copper values grow, governments are demanding Western mine operators pay higher royalties and taxes, process commodities locally and cede control of mines.",
+                "url": "https://www.wsj.com/articles/countries-push-to-extract-more-cash-from-big-mining-companies-1542568635?mod=hp_lead_pos5",
+                "urlToImage": "https://si.wsj.net/public/resources/images/B3-CK396_MINETU_SOC_20181116141041.jpg",
+                "publishedAt": "2018-11-18T19:17:00Z",
+                "content": "From Congolese jungles to Indonesian highlands, a struggle is raging between governments and major mining companies over control of commodities vital to the production of everything from steel to electric cars to smartphones. Developing-world leaders, spurred… [+14754 chars]"
+            }, {
+                "source": {
+                    "id": "the-wall-street-journal",
+                    "name": "The Wall Street Journal"
+                },
+                "author": "Dominique Fong",
+                "title": "China Pushes Modern Farming as Tariffs Make U.S. Crops Costlier",
+                "description": "Chinese agriculture is dominated by small farms with low crop yields, and the trade fight between the U.S. and China is giving Beijing fresh incentive to overhaul the sector as tariffs on American crops make those imports more expensive.",
+                "url": "https://www.wsj.com/articles/china-pushes-modern-farming-as-tariffs-make-u-s-crops-costlier-1542560400?mod=hp_lead_pos10",
+                "urlToImage": "https://si.wsj.net/public/resources/images/B3-CK125_CFARM__TOP_20181115172922.jpg",
+                "publishedAt": "2018-11-18T17:00:00Z",
+                "content": "YANGXIN COUNTY, ChinaTo keep bugs from spoiling her wheat and corn, Wei Junxia walks her plot of land spraying pesticide from a container on her back. A neighbor uses an even simpler tool
+                to boost production: a plastic tube jammed into a bag of fertilizer tha…[+4981 chars]
+                "}, {"
+                source ": {"
+                id ": "
+                the - wall - street - journal ", "
+                name ": "
+                The Wall Street Journal "}, "
+                author ": "
+                Michael R.Gordon ", "
+                title ": "
+                Analysis: Path Grows Rockier
+                for Trump’ s Saudi Policy ", "
+                description ": "
+                The CIA assessment linking Saudi Arabian Crown Prince Mohammed bin Salman to Jamal Khashoggi’ s killing is the most direct challenge the Trump Administration has faced on its policy toward Riyadh.
+                ", "
+                url ": "
+                https: //www.wsj.com/articles/analysis-path-grows-rockier-for-trumps-saudi-policy-1542560094?mod=hp_lead_pos6", "urlToImage": "https://images.wsj.net/im-37729/social", "publishedAt": "2018-11-18T16:54:00Z", "content": "The Central Intelligence Agency assessment linking Saudi Arabian Crown Prince Mohammed bin Salman to the killing of Saudi journalist Jamal Khashoggi is the most direct challenge the Trump Administration has faced on its policy toward Riyadh. Neither President… [+5517 chars]"}, {"source": {"id": "the-wall-street-journal", "name": "The Wall Street Journal"}, "author": "Erin Ailworth", "title": "California Firefighters Battle Exhaustion From Perpetual Blazes", "description":
+                    "Many firefighters battling California’s deadliest wildfire in Paradise have spent the past year hopping from one major blaze to another—each worse than the last.",
+                "url": "https://www.wsj.com/articles/california-firefighters-battle-exhaustion-from-perpetual-blazes-1542556801?mod=hp_lead_pos4",
+                "urlToImage": "https://images.wsj.net/im-37644/social",
+                "publishedAt": "2018-11-18T16:00:00Z",
+                "content": "PARADISE, Calif.Many firefighters battling Californias deadliest wildfire in Paradise have spent the past year hopping from one major blaze to anothereach worse than the last. Now with this months Camp Fire, which has claimed at least 76 lives, burned 149,500… [+3484 chars]"
+            }, {
+                "source": {
+                    "id": "the-wall-street-journal",
+                    "name": "The Wall Street Journal"
+                },
+                "author": "Ted Mann",
+                "title": "GE Seeks Power Sales in Iraq, But Report Spotlights Corruption Concerns",
+                "description": "General Electric is seeking sales for struggling power unit, but faces a dilemma with Iraq, according to a consultant’s report prepared for the company. The nation needs multi-million dollar gas turbines—and poses corruption problems.",
+                "url": "https://www.wsj.com/articles/ge-seeks-power-sales-in-iraq-but-report-spotlights-corruption-concerns-1542553210?mod=hp_lead_pos7",
+                "urlToImage": "https://images.wsj.net/im-37672/social",
+                "publishedAt": "2018-11-18T15:00:00Z",
+                "content": "General Electric Co. learned from a consultants report this past summer of corruption allegations against key business partners in Iraq, where the company is trying to shore up its position in one of the most important foreign markets for its struggling power… [+6989 chars]"
+            }, {
+                "source": {
+                    "id": "the-wall-street-journal",
+                    "name": "The Wall Street Journal"
+                },
+                "author": "Akane Otani",
+                "title": "Why the Corporate Earnings Boom Has Failed to Lift Investors’ Spirits",
+                "description": "Many on Wall Street are weathering the fall technology rout by buying shares of firms with slower, steadier earnings growth, the latest sign that investors largely remain sanguine about U.S. stocks despite recent reversals.",
+                "url": "https://www.wsj.com/articles/why-the-corporate-earnings-boom-has-failed-to-lift-investors-spirits-1542549600?mod=hp_lead_pos1",
+                "urlToImage": "https://images.wsj.net/im-37686/social",
+                "publishedAt": "2018-11-18T14:00:00Z",
+                "content": "Many on Wall Street are weathering the autumn technology rout by buying the shares of firms with slower, steadier earnings growth, the latest sign that investors largely remain sanguine about U.S. stocks despite recent reversals. Trading has turned rocky sinc… [+4444 chars]"
+            }, {
+                "source": {
+                    "id": "the-wall-street-journal",
+                    "name": "The Wall Street Journal"
+                },
+                "author": "Dion Nissenbaum",
+                "title": "John Bolton Energizes Trump’s Agenda—And His Own",
+                "description": "With a centralized decision-making style, national security adviser John Bolton pushes President Trump’s initiatives while pursuing policy priorities he has long advocated as a government official and commentator.",
+                "url": "https://www.wsj.com/articles/john-bolton-energizes-trumps-agendaand-his-own-1542546003?mod=hp_lead_pos9",
+                "urlToImage": "https://images.wsj.net/im-37626/social",
+                "publishedAt": "2018-11-18T13:00:00Z",
+                "content": "WASHINGTONSoon after taking the helm as President Trumps third national security adviser, John Bolton installed a gold-framed painting of President George H.W. Bush sitting at the Resolute Desk in the Oval Office, surrounded by his vice president, national se… [+8604 chars]"
+            }, {
+                "source": {
+                    "id": "the-wall-street-journal",
+                    "name": "The
+                    Wall Street Journal "}, "
+                    author ": "
+                    Rob Taylor ", "
+                    title ": "
+                    U.S. - China Divisions Exposed After One Phrase‘ Torpedoed’ Pacific Accord ", "
+                    description ": "
+                    A summit of world leaders ended in acrimony with the host nation accusing Chinese officials of threatening behavior and differences between the U.S.and China preventing delegates from reaching a consensus.
+                    ", "
+                    url ": "
+                    https: //www.wsj.com/articles/u-s-china-divisions-exposed-after-one-phrase-torpedoed-pacific-accord-1542543774?mod=hp_lead_pos3", "urlToImage": "https://images.wsj.net/im-37721/social", "publishedAt": "2018-11-18T12:22:00Z", "content": "PORT MORESBY, Papua New GuineaA summit of world leaders ended in acrimony Sunday with the host nation accusing Chinese officials of threatening behavior and differences between the U.S. and China preventing delegates from reaching a consensus on trade, securi… [+6870 chars]"}, {"source": {"id": "the-wall-street-journal", "name": "The Wall Street Journal"}, "author": "Joshua Jamerson", "title": "Republican Rick Scott Set to Win U.S. Senate Race in Florida", "description": "Republican Rick Scott maintained his lead over Democratic incumbent Bill Nelson after a second recount in a hotly contested U.S. Senate race, meaning the seat is likely to flip to the GOP’s column.", "url": "https://www.wsj.com/articles/florida-senate-race-set-to-come-to-a-close-as-recount-wraps-up-1542538800?mod=hp_lead_pos2", "urlToImage":
+                        "https://images.wsj.net/im-37718/social",
+                    "publishedAt": "2018-11-18T11:00:00Z",
+                    "content": "WEST PALM BEACH, Fla.Republican Rick Scott maintained his lead over Democratic incumbent Bill Nelson after a second recount i n a hotly contested U.S. Senate race, Florida officials said Sunday, meaning the seat is likely to flip to the GOPs column and expand… [+3368 chars]"
+                },
+                {
+                    "source": {
+                        "id": "the-wall-street-journal",
+                        "name": "The Wall Street Journal"
+                    },
+                    "author": "Erich Schwartzel",
+                    "title": "Beauty and the Backlash: Disney’s Modern Princess Problem",
+                    "description": "From Snow White dolls to Cinderella remakes, Disney’s princess franchise brings in billions of dollars—and has drawn critics for promoting outdated notions of femininity. Employees debate: How do you keep the princess franchise relevant without alienating fan…",
+                    "url": "https://www.wsj.com/articles/beauty-and-the-backlash-disneys-modern-princess-problem-1542430801?mod=hp_lead_pos8",
+                    "urlToImage": "https://si.wsj.net/public/resources/images/B3-CJ752_PRINCE_SOC_20181114161502.jpg",
+                    "publishedAt": "2018-11-17T05:00:00Z",
+                    "content": "LOS ANGELESAbout two years ago, employees who managed Walt Disney Co.s DIS -0.79% princess characters gathered to watch an extended scene from an unreleased movie. The executives had spent years cultivating Ariel, Elsa and Snow White as highly profitable mode… [+17286 chars]"
+                }]
+        } {
+            "status": "ok",
+            "totalResults": 10,
+            "articles": [{
+                        "source": {
+                            "id": "the-wall-street-journal",
+                            "name": "The Wall Street Journal"
+                        },
+                        "author": "Rhiannon Hoyle",
+                        "title": "Countries Push to Extract More Cash from Big Mining Companies",
+                        "description": "As gold, diamond and copper values grow, governments are demanding Western mine operators pay higher royalties and taxes, process commodities locally and cede control of mines.",
+                        "url": "https://www.wsj.com/articles/countries-push-to-extract-more-cash-from-big-mining-companies-1542568635?mod=hp_lead_pos5",
+                        "urlToImage": "https://si.wsj.net/public/resources/images/B3-CK396_MINETU_SOC_20181116141041.jpg",
+                        "publishedAt": "2018-11-18T19:17:00Z",
+                        "content": "From Congolese jungles to Indonesian highlands, a struggle is raging between governments and major mining companies over control of commodities vital to the production of everything from steel to electric cars to smartphones. Developing-world leaders, spurred… [+14754 chars]"
+                    }, {
+                        "source": {
+                            "id": "the-wall-street-journal",
+                            "name": "The Wall Street Journal"
+                        },
+                        "author": "Dominique Fong",
+                        "title": "China Pushes Modern Farming as Tariffs Make U.S. Crops Costlier",
+                        "description": "Chinese agriculture is dominated by small farms with low crop yields, and the trade fight between the U.S. and China is giving Beijing fresh incentive to overhaul the sector as tariffs on American crops make those imports more expensive.",
+                        "url": "https://www.wsj.com/articles/china-pushes-modern-farming-as-tariffs-make-u-s-crops-costlier-1542560400?mod=hp_lead_pos10",
+                        "urlToImage": "https://si.wsj.net/public/resources/images/B3-CK125_CFARM__TOP_20181115172922.jpg",
+                        "publishedAt": "2018-11-18T17:00:00Z",
+                        "content": "YANGXIN COUNTY, ChinaTo keep bugs from spoiling her wheat and corn, Wei Junxia walks her plot of land spraying pesticide from a container on her back. A neighbor uses an even simpler tool
+                        to boost production: a plastic tube jammed into a bag of fertilizer tha…[+4981 chars]
+                        "}, {"
+                        source ": {"
+                        id ": "
+                        the - wall - street - journal ", "
+                        name ": "
+                        The Wall Street Journal "}, "
+                        author ": "
+                        Michael R.Gordon ", "
+                        title ": "
+                        Analysis: Path Grows Rockier
+                        for Trump’ s Saudi Policy ", "
+                        description ": "
+                        The CIA assessment linking Saudi Arabian Crown Prince Mohammed bin Salman to Jamal Khashoggi’ s killing is the most direct challenge the Trump Administration has faced on its policy toward Riyadh.
+                        ", "
+                        url ": "
+                        https: //www.wsj.com/articles/analysis-path-grows-rockier-for-trumps-saudi-policy-1542560094?mod=hp_lead_pos6", "urlToImage": "https://images.wsj.net/im-37729/social", "publishedAt": "2018-11-18T16:54:00Z", "content": "The Central Intelligence Agency assessment linking Saudi Arabian Crown Prince Mohammed bin Salman to the killing of Saudi journalist Jamal Khashoggi is the most direct challenge the Trump Administration has faced on its policy toward Riyadh. Neither President… [+5517 chars]"}, {"source": {"id": "the-wall-street-journal", "name": "The Wall Street Journal"}, "author": "Erin Ailworth", "title": "California Firefighters Battle Exhaustion From Perpetual Blazes", "description":
+                            "Many firefighters battling California’s deadliest wildfire in Paradise have spent the past year hopping from one major blaze to another—each worse than the last.",
+                        "url": "https://www.wsj.com/articles/california-firefighters-battle-exhaustion-from-perpetual-blazes-1542556801?mod=hp_lead_pos4",
+                        "urlToImage": "https://images.wsj.net/im-37644/social",
+                        "publishedAt": "2018-11-18T16:00:00Z",
+                        "content": "PARADISE, Calif.Many firefighters battling Californias deadliest wildfire in Paradise have spent the past year hopping from one major blaze to anothereach worse than the last. Now with this months Camp Fire, which has claimed at least 76 lives, burned 149,500… [+3484 chars]"
+                    }, {
+                        "source": {
+                            "id": "the-wall-street-journal",
+                            "name": "The Wall Street Journal"
+                        },
+                        "author": "Ted Mann",
+                        "title": "GE Seeks Power Sales in Iraq, But Report Spotlights Corruption Concerns",
+                        "description": "General Electric is seeking sales for struggling power unit, but faces a dilemma with Iraq, according to a consultant’s report prepared for the company. The nation needs multi-million dollar gas turbines—and poses corruption problems.",
+                        "url": "https://www.wsj.com/articles/ge-seeks-power-sales-in-iraq-but-report-spotlights-corruption-concerns-1542553210?mod=hp_lead_pos7",
+                        "urlToImage": "https://images.wsj.net/im-37672/social",
+                        "publishedAt": "2018-11-18T15:00:00Z",
+                        "content": "General Electric Co. learned from a consultants report this past summer of corruption allegations against key business partners in Iraq, where the company is trying to shore up its position in one of the most important foreign markets for its struggling power… [+6989 chars]"
+                    }, {
+                        "source": {
+                            "id": "the-wall-street-journal",
+                            "name": "The Wall Street Journal"
+                        },
+                        "author": "Akane Otani",
+                        "title": "Why the Corporate Earnings Boom Has Failed to Lift Investors’ Spirits",
+                        "description": "Many on Wall Street are weathering the fall technology rout by buying shares of firms with slower, steadier earnings growth, the latest sign that investors largely remain sanguine about U.S. stocks despite recent reversals.",
+                        "url": "https://www.wsj.com/articles/why-the-corporate-earnings-boom-has-failed-to-lift-investors-spirits-1542549600?mod=hp_lead_pos1",
+                        "urlToImage": "https://images.wsj.net/im-37686/social",
+                        "publishedAt": "2018-11-18T14:00:00Z",
+                        "content": "Many on Wall Street are weathering the autumn technology rout by buying the shares of firms with slower, steadier earnings growth, the latest sign that investors largely remain sanguine about U.S. stocks despite recent reversals. Trading has turned rocky sinc… [+4444 chars]"
+                    }, {
+                        "source": {
+                            "id": "the-wall-street-journal",
+                            "name": "The Wall Street Journal"
+                        },
+                        "author": "Dion Nissenbaum",
+                        "title": "John Bolton Energizes Trump’s Agenda—And His Own",
+                        "description": "With a centralized decision-making style, national security adviser John Bolton pushes President Trump’s initiatives while pursuing policy priorities he has long advocated as a government official and commentator.",
+                        "url": "https://www.wsj.com/articles/john-bolton-energizes-trumps-agendaand-his-own-1542546003?mod=hp_lead_pos9",
+                        "urlToImage": "https://images.wsj.net/im-37626/social",
+                        "publishedAt": "2018-11-18T13:00:00Z",
+                        "content": "WASHINGTONSoon after taking the helm as President Trumps third national security adviser, John Bolton installed a gold-framed painting of President George H.W. Bush sitting at the Resolute Desk in the Oval Office, surrounded by his vice president, national se… [+8604 chars]"
+                    }, {
+                        "source": {
+                            "id": "the-wall-street-journal",
+                            "name": "The
+                            Wall Street Journal "}, "
+                            author ": "
+                            Rob Taylor ", "
+                            title ": "
+                            U.S. - China Divisions Exposed After One Phrase‘ Torpedoed’ Pacific Accord ", "
+                            description ": "
+                            A summit of world leaders ended in acrimony with the host nation accusing Chinese officials of threatening behavior and differences between the U.S.and China preventing delegates from reaching a consensus.
+                            ", "
+                            url ": "
+                            https: //www.wsj.com/articles/u-s-china-divisions-exposed-after-one-phrase-torpedoed-pacific-accord-1542543774?mod=hp_lead_pos3", "urlToImage": "https://images.wsj.net/im-37721/social", "publishedAt": "2018-11-18T12:22:00Z", "content": "PORT MORESBY, Papua New GuineaA summit of world leaders ended in acrimony Sunday with the host nation accusing Chinese officials of threatening behavior and differences between the U.S. and China preventing delegates from reaching a consensus on trade, securi… [+6870 chars]"}, {"source": {"id": "the-wall-street-journal", "name": "The Wall Street Journal"}, "author": "Joshua Jamerson", "title": "Republican Rick Scott Set to Win U.S. Senate Race in Florida", "description": "Republican Rick Scott maintained his lead over Democratic incumbent Bill Nelson after a second recount in a hotly contested U.S. Senate race, meaning the seat is likely to flip to the GOP’s column.", "url": "https://www.wsj.com/articles/florida-senate-race-set-to-come-to-a-close-as-recount-wraps-up-1542538800?mod=hp_lead_pos2", "urlToImage":
+                                "https://images.wsj.net/im-37718/social",
+                            "publishedAt": "2018-11-18T11:00:00Z",
+                            "content": "WEST PALM BEACH, Fla.Republican Rick Scott maintained his lead over Democratic incumbent Bill Nelson after a second recount i n a hotly contested U.S. Senate race, Florida officials said Sunday, meaning the seat is likely to flip to the GOPs column and expand… [+3368 chars]"
+                        },
+                        {
+                            "source": {
+                                "id": "the-wall-street-journal",
+                                "name": "The Wall Street Journal"
+                            },
+                            "author": "Erich Schwartzel",
+                            "title": "Beauty and the Backlash: Disney’s Modern Princess Problem",
+                            "description": "From Snow White dolls to Cinderella remakes, Disney’s princess franchise brings in billions of dollars—and has drawn critics for promoting outdated notions of femininity. Employees debate: How do you keep the princess franchise relevant without alienating fan…",
+                            "url": "https://www.wsj.com/articles/beauty-and-the-backlash-disneys-modern-princess-problem-1542430801?mod=hp_lead_pos8",
+                            "urlToImage": "https://si.wsj.net/public/resources/images/B3-CJ752_PRINCE_SOC_20181114161502.jpg",
+                            "publishedAt": "2018-11-17T05:00:00Z",
+                            "content": "LOS ANGELESAbout two years ago, employees who managed Walt Disney Co.s DIS -0.79% princess characters gathered to watch an extended scene from an unreleased movie. The executives had spent years cultivating Ariel, Elsa and Snow White as highly profitable mode… [+17286 chars]"
+                        }]
+                } {
+                    "status": "ok",
+                    "totalResults": 10,
+                    "articles": [{
+                            "source": {
+                                "id": "the-wall-street-journal",
+                                "name": "The Wall Street Journal"
+                            },
+                            "author": "Rhiannon Hoyle",
+                            "title": "Countries Push to Extract More Cash from Big Mining Companies",
+                            "description": "As gold, diamond and copper values grow, governments are demanding Western mine operators pay higher royalties and taxes, process commodities locally and cede control of mines.",
+                            "url": "https://www.wsj.com/articles/countries-push-to-extract-more-cash-from-big-mining-companies-1542568635?mod=hp_lead_pos5",
+                            "urlToImage": "https://si.wsj.net/public/resources/images/B3-CK396_MINETU_SOC_20181116141041.jpg",
+                            "publishedAt": "2018-11-18T19:17:00Z",
+                            "content": "From Congolese jungles to Indonesian highlands, a struggle is raging between governments and major mining companies over control of commodities vital to the production of everything from steel to electric cars to smartphones. Developing-world leaders, spurred… [+14754 chars]"
+                        }, {
+                            "source": {
+                                "id": "the-wall-street-journal",
+                                "name": "The Wall Street Journal"
+                            },
+                            "author": "Dominique Fong",
+                            "title": "China Pushes Modern Farming as Tariffs Make U.S. Crops Costlier",
+                            "description": "Chinese agriculture is dominated by small farms with low crop yields, and the trade fight between the U.S. and China is giving Beijing fresh incentive to overhaul the sector as tariffs on American crops make those imports more expensive.",
+                            "url": "https://www.wsj.com/articles/china-pushes-modern-farming-as-tariffs-make-u-s-crops-costlier-1542560400?mod=hp_lead_pos10",
+                            "urlToImage": "https://si.wsj.net/public/resources/images/B3-CK125_CFARM__TOP_20181115172922.jpg",
+                            "publishedAt": "2018-11-18T17:00:00Z",
+                            "content": "YANGXIN COUNTY, ChinaTo keep bugs from spoiling her wheat and corn, Wei Junxia walks her plot of land spraying pesticide from a container on her back. A neighbor uses an even simpler tool
+                            to boost production: a plastic tube jammed into a bag of fertilizer tha…[+4981 chars]
+                            "}, {"
+                            source ": {"
+                            id ": "
+                            the - wall - street - journal ", "
+                            name ": "
+                            The Wall Street Journal "}, "
+                            author ": "
+                            Michael R.Gordon ", "
+                            title ": "
+                            Analysis: Path Grows Rockier
+                            for Trump’ s Saudi Policy ", "
+                            description ": "
+                            The CIA assessment linking Saudi Arabian Crown Prince Mohammed bin Salman to Jamal Khashoggi’ s killing is the most direct challenge the Trump Administration has faced on its policy toward Riyadh.
+                            ", "
+                            url ": "
+                            https: //www.wsj.com/articles/analysis-path-grows-rockier-for-trumps-saudi-policy-1542560094?mod=hp_lead_pos6", "urlToImage": "https://images.wsj.net/im-37729/social", "publishedAt": "2018-11-18T16:54:00Z", "content": "The Central Intelligence Agency assessment linking Saudi Arabian Crown Prince Mohammed bin Salman to the killing of Saudi journalist Jamal Khashoggi is the most direct challenge the Trump Administration has faced on its policy toward Riyadh. Neither President… [+5517 chars]"}, {"source": {"id": "the-wall-street-journal", "name": "The Wall Street Journal"}, "author": "Erin Ailworth", "title": "California Firefighters Battle Exhaustion From Perpetual Blazes", "description":
+                                "Many firefighters battling California’s deadliest wildfire in Paradise have spent the past year hopping from one major blaze to another—each worse than the last.",
+                            "url": "https://www.wsj.com/articles/california-firefighters-battle-exhaustion-from-perpetual-blazes-1542556801?mod=hp_lead_pos4",
+                            "urlToImage": "https://images.wsj.net/im-37644/social",
+                            "publishedAt": "2018-11-18T16:00:00Z",
+                            "content": "PARADISE, Calif.Many firefighters battling Californias deadliest wildfire in Paradise have spent the past year hopping from one major blaze to anothereach worse than the last. Now with this months Camp Fire, which has claimed at least 76 lives, burned 149,500… [+3484 chars]"
+                        }, {
+                            "source": {
+                                "id": "the-wall-street-journal",
+                                "name": "The Wall Street Journal"
+                            },
+                            "author": "Ted Mann",
+                            "title": "GE Seeks Power Sales in Iraq, But Report Spotlights Corruption Concerns",
+                            "description": "General Electric is seeking sales for struggling power unit, but faces a dilemma with Iraq, according to a consultant’s report prepared for the company. The nation needs multi-million dollar gas turbines—and poses corruption problems.",
+                            "url": "https://www.wsj.com/articles/ge-seeks-power-sales-in-iraq-but-report-spotlights-corruption-concerns-1542553210?mod=hp_lead_pos7",
+                            "urlToImage": "https://images.wsj.net/im-37672/social",
+                            "publishedAt": "2018-11-18T15:00:00Z",
+                            "content": "General Electric Co. learned from a consultants report this past summer of corruption allegations against key business partners in Iraq, where the company is trying to shore up its position in one of the most important foreign markets for its struggling power… [+6989 chars]"
+                        }, {
+                            "source": {
+                                "id": "the-wall-street-journal",
+                                "name": "The Wall Street Journal"
+                            },
+                            "author": "Akane Otani",
+                            "title": "Why the Corporate Earnings Boom Has Failed to Lift Investors’ Spirits",
+                            "description": "Many on Wall Street are weathering the fall technology rout by buying shares of firms with slower, steadier earnings growth, the latest sign that investors largely remain sanguine about U.S. stocks despite recent reversals.",
+                            "url": "https://www.wsj.com/articles/why-the-corporate-earnings-boom-has-failed-to-lift-investors-spirits-1542549600?mod=hp_lead_pos1",
+                            "urlToImage": "https://images.wsj.net/im-37686/social",
+                            "publishedAt": "2018-11-18T14:00:00Z",
+                            "content": "Many on Wall Street are weathering the autumn technology rout by buying the shares of firms with slower, steadier earnings growth, the latest sign that investors largely remain sanguine about U.S. stocks despite recent reversals. Trading has turned rocky sinc… [+4444 chars]"
+                        }, {
+                            "source": {
+                                "id": "the-wall-street-journal",
+                                "name": "The Wall Street Journal"
+                            },
+                            "author": "Dion Nissenbaum",
+                            "title": "John Bolton Energizes Trump’s Agenda—And His Own",
+                            "description": "With a centralized decision-making style, national security adviser John Bolton pushes President Trump’s initiatives while pursuing policy priorities he has long advocated as a government official and commentator.",
+                            "url": "https://www.wsj.com/articles/john-bolton-energizes-trumps-agendaand-his-own-1542546003?mod=hp_lead_pos9",
+                            "urlToImage": "https://images.wsj.net/im-37626/social",
+                            "publishedAt": "2018-11-18T13:00:00Z",
+                            "content": "WASHINGTONSoon after taking the helm as President Trumps third national security adviser, John Bolton installed a gold-framed painting of President George H.W. Bush sitting at the Resolute Desk in the Oval Office, surrounded by his vice president, national se… [+8604 chars]"
+                        }, {
+                            "source": {
+                                "id": "the-wall-street-journal",
+                                "name": "The
+                                Wall Street Journal "}, "
+                                author ": "
+                                Rob Taylor ", "
+                                title ": "
+                                U.S. - China Divisions Exposed After One Phrase‘ Torpedoed’ Pacific Accord ", "
+                                description ": "
+                                A summit of world leaders ended in acrimony with the host nation accusing Chinese officials of threatening behavior and differences between the U.S.and China preventing delegates from reaching a consensus.
+                                ", "
+                                url ": "
+                                https: //www.wsj.com/articles/u-s-china-divisions-exposed-after-one-phrase-torpedoed-pacific-accord-1542543774?mod=hp_lead_pos3", "urlToImage": "https://images.wsj.net/im-37721/social", "publishedAt": "2018-11-18T12:22:00Z", "content": "PORT MORESBY, Papua New GuineaA summit of world leaders ended in acrimony Sunday with the host nation accusing Chinese officials of threatening behavior and differences between the U.S. and China preventing delegates from reaching a consensus on trade, securi… [+6870 chars]"}, {"source": {"id": "the-wall-street-journal", "name": "The Wall Street Journal"}, "author": "Joshua Jamerson", "title": "Republican Rick Scott Set to Win U.S. Senate Race in Florida", "description": "Republican Rick Scott maintained his lead over Democratic incumbent Bill Nelson after a second recount in a hotly contested U.S. Senate race, meaning the seat is likely to flip to the GOP’s column.", "url": "https://www.wsj.com/articles/florida-senate-race-set-to-come-to-a-close-as-recount-wraps-up-1542538800?mod=hp_lead_pos2", "urlToImage":
+                                    "https://images.wsj.net/im-37718/social",
+                                "publishedAt": "2018-11-18T11:00:00Z",
+                                "content": "WEST PALM BEACH, Fla.Republican Rick Scott maintained his lead over Democratic incumbent Bill Nelson after a second recount i n a hotly contested U.S. Senate race, Florida officials said Sunday, meaning the seat is likely to flip to the GOPs column and expand… [+3368 chars]"
+                            },
+                            {
+                                "source": {
+                                    "id": "the-wall-street-journal",
+                                    "name": "The Wall Street Journal"
+                                },
+                                "author": "Erich Schwartzel",
+                                "title": "Beauty and the Backlash: Disney’s Modern Princess Problem",
+                                "description": "From Snow White dolls to Cinderella remakes, Disney’s princess franchise brings in billions of dollars—and has drawn critics for promoting outdated notions of femininity. Employees debate: How do you keep the princess franchise relevant without alienating fan…",
+                                "url": "https://www.wsj.com/articles/beauty-and-the-backlash-disneys-modern-princess-problem-1542430801?mod=hp_lead_pos8",
+                                "urlToImage": "https://si.wsj.net/public/resources/images/B3-CJ752_PRINCE_SOC_20181114161502.jpg",
+                                "publishedAt": "2018-11-17T05:00:00Z",
+                                "content": "LOS ANGELESAbout two years ago, employees who managed Walt Disney Co.s DIS -0.79% princess characters gathered to watch an extended scene from an unreleased movie. The executives had spent years cultivating Ariel, Elsa and Snow White as highly profitable mode… [+17286 chars]"
+                            }]
+                    }

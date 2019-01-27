@@ -1,0 +1,39 @@
+{% extends "structure.html" %}
+{% block main %}
+<div>
+        <video autoplay muted loop style="width:100%; height:100%">
+            <source id="mp4" src="/static/bullbear.mp4" type="video/mp4"/>
+            <p>Your user agent does not support the HTML5 Video element.</p>
+        </video>
+            <div class="bg_content">     
+                <form action="/create_account" method="post" class="form-signin">
+                    <!-- <img src="/static/Charizard.png" img class = "center" alt="Charizard" width="200" height="200">
+                    <h1 class="h3 mb-3 font-weight-normal">Create New Account</h1> -->
+                    <h5>
+                            <ul>
+                                <li>Your password must contain at least 8 characters</li>
+                                <li>Your password must contain at least one digit</li>
+                                <li>Your password must contain at least one capital letter</li>
+                              </ul> 
+                    </h5>
+                    {% with messages = get_flashed_messages() %}
+                        {% if messages %}
+                            {% for message in messages %}
+                                <h5>{{message}}</h5>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+                    <label for="username" class="sr-only">Username</label>
+                    <input name="username" type="text" id="username" class="form-control" placeholder="Username" required = "True" autofocus"">
+                    <label for="password" class="sr-only">Password</label>
+                    <input name="password" type="password" id="password" class="form-control" placeholder="Password" required = "True">
+                    <label for="password" class="sr-only">Retype Password</label>
+                    <input name="password" type="password" id="second_password" class="form-control" placeholder="Retype Password" required = "True">
+                    <button class="btn btn-lg btn-primary btn-block" id="myBtn" style = "font-size: 15px" type="submit">Create Account</button>
+                </form>
+                <form action="/login">
+                    <input type="submit" id="myBtn" style = "font-size: 15px" value="Login" />
+                </form>
+            </div>
+</div>          
+{% endblock main %}
