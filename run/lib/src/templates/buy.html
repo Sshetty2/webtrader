@@ -14,7 +14,7 @@
             <p>Your user agent does not support the HTML5 Video element.</p>
         </video>
             <div class="bg_content">    
-                <form action="/buy" method="post" onsubmit="openModal()" id="myForm" class="form-signin">
+                <form action="/buy" method="post" id="myForm" class="form-signin">
                     <!-- <h1 class="h3 mb-3 font-weight-normal">Buy Shares</h1> -->
                     <!-- <img src="/static/Squirtle.png" img class = "center" alt="Squirtle" width="300" height="200"> -->
                     {% with messages = get_flashed_messages() %}
@@ -28,36 +28,39 @@
                     <input name="ticker_symbol" id="ticker_symbol" type="text" class="form-control" style="width: 95%" margin = "margin: 6px" placeholder="Ticker Symbol" required = "True" autofocus"">
                     <h4>Enter the number of shares you'd like to purchase:</h4>
                     <input name="number_of_shares" id="number_of_shares" type="text" class="form-control" style="width: 95%" margin = "margin: 6px" placeholder="Number of Shares" required = "True"  autofocus"">
-                    <button class="btn btn-info btn-lg" id= "myBtn"  type="submit">Buy</button>
-                </form>
+                    <button class="btn btn-info btn-lg" id= "myBtn"  onClick="openModal()">Buy</button>
+                
                     <div class="modal fade" tabindex="-1" role="dialog" id="myModal">   
                         <div class="modal-dialog modal-dialog-centered" role="document">
                               <!-- Modal content-->
-                              <div class="modal-content" style="background: rgba(0, 0, 0, 0.7)">
+                            <div class="modal-content" style="background: rgba(0, 0, 0, 0.7)">
                                 <div class="modal-header" style="border-bottom: 0 none;     padding: 5px">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="color:white">&times;</span></button>
                                 </div>
                                 <div class="modal-body">
-                                  <p id= "demo" style="color: white">Loading ... </p>
+                                    <p id= "demo" style="color: white">Loading ... </p>
                                 </div>
                                 <div class="modal-footer">
                                     <span>
                                         Confirm?
                                     </span>
-                                    <a href="/buy">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    
+                                    <button type="submit" form="myForm" class="btn btn-default" >
+                        
                                     <span class="glyphicon glyphicon-home">
                                         Yes
-                                    </span> 
+                                    </span>
+                                
                                     </button>
-                                    </a>
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    
+                                    <button type="button"  class="btn btn-default" data-dismiss="modal">
                                         No
                                     </button>
                                 </div>
-                              </div>
+                            </div>
                          </div>
                     </div>
+                </form>
             </div>
 </div> 
 

@@ -1,1 +1,2 @@
 
+    if request.method == 'GET':
