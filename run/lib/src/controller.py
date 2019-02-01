@@ -221,6 +221,18 @@ def deposit_funds():
         flash(f'You have sucessfully deposited ${amt_of_funds}')
         return redirect('/deposit_funds')
 
+
+@app.route('/see_balance', methods=['GET'])
+def see_balance():
+    if 'username' in session:
+        user_object = model.set_user_object(session['username'])
+        balance = user_object.balance
+        flash(f'You currently have ${balance} in your account')
+        return render_template('see_balance.html')
+    else:
+        flash('You will need to log in before you can see your balance')    
+        return redirect('/login')
+
         
 
 

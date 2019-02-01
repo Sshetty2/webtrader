@@ -1,0 +1,19 @@
+{% extends "structure_logged.html" %}
+<!-- a new template is created because we're logged in  -->
+{% block main %}
+<div>
+    <video autoplay muted loop style="width:100%; height:100%">
+        <source id="mp4" src="/static/bullbear.mp4" type="video/mp4"/>
+        <p>Your user agent does not support the HTML5 Video element.</p>
+    </video>
+        <div class="bg_content">     
+            {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        {% for message in messages %}
+                            <h4>{{message}}</h4>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+        </div>
+</div>  
+{% endblock main %}
