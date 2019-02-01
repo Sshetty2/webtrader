@@ -228,7 +228,7 @@ def deposit_funds():
             flash('please enter valid amount to deposit')
             return redirect('/desposit_funds')
         user_object = model.set_user_object(session['username'])
-        user_object.set_balance(amt_of_funds)
+        user_object.deposit_funds(amt_of_funds)
         flash(f'You have sucessfully deposited ${amt_of_funds}')
         return redirect('/deposit_funds')
 
