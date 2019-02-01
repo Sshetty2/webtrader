@@ -154,7 +154,7 @@ def buy():
             total_price_rounded = round(total_price, 2)
             user_object = model.set_user_object(session['username'])
             try:
-                user_object.buy()
+                user_object.buy(ticker = ticker_symbol, volume = number_of_shares)
             except:
                 flash('Not enough funds')
                 return redirect('/buy')
