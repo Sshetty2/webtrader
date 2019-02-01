@@ -43,13 +43,9 @@
                                         <span>
                                             Confirm?
                                         </span>
-                                        <a href="/sell">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">
-                                        <span class="glyphicon glyphicon-home">
+                                        <button type="button" class="btn btn-default" onclick="form_submit()">
                                             Yes
-                                        </span> 
                                         </button>
-                                        </a>
                                         <button type="button" class="btn btn-default" data-dismiss="modal">
                                             No
                                         </button>
@@ -94,6 +90,11 @@ function openModal(){
 
     loadDoc(`https://api.iextrading.com/1.0/stock/${ticker_symbol}/quote`, myFunction)
 }
+
+
+function form_submit() {
+    document.getElementById("myForm").submit();
+   }  
 
 
 
