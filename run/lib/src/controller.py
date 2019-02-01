@@ -202,7 +202,7 @@ def trade_history():
             flash('You will need to log in before you can see your trade history')    
             return redirect('/login')
             
-@app.route('/deposit_funds', methods=['GET'])
+@app.route('/deposit_funds', methods=['GET', 'POST'])
 def deposit_funds():
     if request.method == 'GET':
         if 'username' in session:
@@ -210,6 +210,18 @@ def deposit_funds():
         else:
             flash('You will need to log in before you can deposit funds')    
             return redirect('/login')
+    else: 
+        try:
+            amt_of_funds = int(request.form["deposit_amount"])
+        except:
+            flash('please enter valid amount to deposit')
+            return redirect('/desposit_funds')
+        user_object = model.set_user_object(session['username'])
+        user_object.set_balance(amt_of_funds)
+        flash(f'You have sucessfully deposited ${amt_of_funds}')
+        return redirect('/deposit_funds')
+
+        
 
 
 @app.route('/news_scroll', methods=['GET'])
