@@ -91,7 +91,7 @@ def create_new_account():
         if re.search('[A-Z]',password) is None:
             print('pass char')
             flash('Please enter a password that with at least one capital letter')
-            return redirect('create_account')
+            return redirect('/create_account')
         print('no issues')
         hashed_pw = new_user.calculatehash(password)
         print(hashed_pw)
@@ -151,9 +151,17 @@ def buy():
             ticker_symbol = request.form['ticker_symbol'].upper()
             number_of_shares = int(request.form['number_of_shares'])
             total_price = model.apiget(ticker_symbol)*number_of_shares
+            total_price_rounded = round(total_price, 2)
+            user_object = model.set_user_object(session['username'])
+            try:
+                user_object.buy()
+            except:
+                flash('Not enough funds')
+                return redirect('/buy')
         except:
             flash('Invalid Entry! Try Again..') 
-        flash(total_price)
+            return redirect('/buy')
+        flash(f"You have just purchased {number_of_shares} shares of {ticker_symbol} for {total_price_rounded}")
         return redirect('/buy')
 
 @app.route('/sell', methods=['GET', 'POST'])
