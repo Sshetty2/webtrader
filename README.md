@@ -7,4 +7,5 @@ In order to ru the project you would simply need to clone the repository and run
 (optionally, you can create a virtual environment; I use a virtualenvwrapper) 
 
 $ pip3 install -r setup/requirements.txt
+
 $ python3 run/lib/src/controller.py
