@@ -198,7 +198,7 @@ def portfolio():
             xs = user_object.getpositions_array()
             return render_template('portfolio.html', message = xs)
         else:
-            flash('You will need to log in before you can sell your holdings')    
+            flash('You will need to log in before you can sell your holdings')   
             return redirect('/login')
 
 
