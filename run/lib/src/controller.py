@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from flask import Flask, render_template, request, redirect, session, flash
+from flask import Flask, render_template, request, redirect, session, flash, send_from_directory
 # import connexion
 import model
 import re
@@ -13,7 +13,7 @@ def get_ticker_price(ticker='aapl'):
 
 # app = connexion.App(__name__, specification_dir='./')
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="./test-react-app-webtrader/bswhuild")
 
 # app.add_api('swagger.yml')
 
@@ -33,15 +33,24 @@ def date_format(datestring):
 
 
 
-@app.route('/', methods=['GET'])
-def send_to_login():
-        return redirect('/login')
+# @app.route('/', methods=['GET'])
+# def send_to_login():
+#         return redirect('/login')
 
-def set_user_object(username):
-    user_object = model.Account(username)
-    user_object = user_object.set_from_username()
-    return user_object
+# def set_user_object(username):
+#     user_object = model.Account(username)
+#     user_object = user_object.set_from_username()
+#     return user_object
 
+
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != "" and os.path.exists("./test-react-app-webtrader/build/" + path):
+        return send_from_directory('./test-react-app-webtrader/build/', path)
+    else:
+        return send_from_directory('./test-react-app-webtrader/build/', 'index.html')
 
 
 @app.route('/login', methods=['GET', 'POST'])
