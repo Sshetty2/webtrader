@@ -1,3 +1,4 @@
-
+/run/lib/src/react-sample-app/node_modules/
 .vscode/settings.json
 .vscode/settings.json
+/run/lib/src/react-sample-app/eject/node_modules/
