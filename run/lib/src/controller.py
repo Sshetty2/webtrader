@@ -6,14 +6,14 @@ import model
 import re
 import dateutil.parser
 import calendar
-
+import os
 
 def get_ticker_price(ticker='aapl'):
     return model.apiget(ticker)
 
 # app = connexion.App(__name__, specification_dir='./')
 
-app = Flask(__name__, static_folder="./test-react-app-webtrader/bswhuild")
+app = Flask(__name__, static_folder="./test-react-app-webtrader/build")
 
 # app.add_api('swagger.yml')
 
@@ -266,5 +266,5 @@ def news_scroll():
 
 if __name__=='__main__':
     app.debug = True
-    app.run(port=8080)
+    app.run(use_reloader=True, port=5000, threaded=True)
     
