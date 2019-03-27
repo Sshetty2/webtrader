@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 from flask import Flask, render_template, request, redirect, session, flash
+from flask_cors import CORS, cross_origin
+
 # import connexion
 import model
 import re
@@ -138,6 +140,7 @@ def check_stock_price_logged():
         flash(f'The Price of {ticker_symbol} is currently ${price}')
         return redirect('/check_stock_price_logged')
     
+ 
 @app.route('/buy', methods=['GET', 'POST'])
 def buy():
     if request.method == 'GET':
