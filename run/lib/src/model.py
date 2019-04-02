@@ -83,6 +83,7 @@ def apiget(tick, url= "https://api.iextrading.com/1.0/stock/{}/quote"):
     try:
         data = requests.get(URL).json()
         price = data.get("latestPrice")
+        price = round(price, 2)
     except:
         price = None
     return price
@@ -493,7 +494,7 @@ class Account:
         except ValueError:
             raise ValueError("insufficient funds")
         trade = Trade(pk = None, account_pk = self.pk, ticker= ticker, volume=volume*-1, price=price, time=None)
-        self.balance += volume * price
+        self.balance += round((volume * price), 2)
         trade.save()
         self.save()
 
@@ -505,7 +506,8 @@ class Account:
         except ValueError: 
             raise ValueError("insufficient funds")
         trade = Trade(pk = None, account_pk = self.pk, ticker = ticker, volume=volume, price=price, time=None)
-        self.balance -= volume * price
+        self.balance -= round((volume * price), 2)
+
         trade.save()
         self.save()
         return True
