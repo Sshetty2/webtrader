@@ -3,3 +3,5 @@
 .vscode/settings.json
 .vscode/settings.json
 /run/lib/src/react-sample-app/node_modules
+
+__pycache__/
