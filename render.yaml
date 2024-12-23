@@ -3,7 +3,7 @@ services:
     name: webtrader
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn --chdir run/lib/src controller:app
+    startCommand: python .\run\lib\src\controller.py
     envVars:
       - key: PYTHON_VERSION
         value: 3.9
